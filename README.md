@@ -1,6 +1,5 @@
 # contador
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fa54b9fb-668b-463f-bc7b-e668e60d388a" alt="Contador">
+  <img src="https://github.com/user-attachments/assets/e7fc6a1d-ce75-463d-b666-5d01eadd2b95" alt="Purple and Pink Modern Gradient Mobile App Development Instagram Post (1)">
 </div>
-
