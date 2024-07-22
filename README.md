@@ -1,5 +1,7 @@
 # contador
 
+![Design sem nome (5)](https://github.com/user-attachments/assets/955bda59-451b-4826-b81c-30798e5be3b3)
+
 aplicativo contador de clicks
 
 ## Getting Started
