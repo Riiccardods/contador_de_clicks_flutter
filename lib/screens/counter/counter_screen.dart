@@ -8,7 +8,6 @@ class CounterScreen extends StatefulWidget {
 }
 
 
-
 class _CounterScreenState extends State<CounterScreen> {
   int clickCounter = 0;
 
