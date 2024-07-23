@@ -9,6 +9,7 @@ class CounterScreen extends StatefulWidget {
   // `StatefulWidget` é um widget que tem um estado mutável, ou seja, 
   // ele pode mudar durante o tempo de execução com base em interações do usuário.
 
+
   const CounterScreen({super.key});
   // O construtor `const CounterScreen` é usado para criar instâncias imutáveis 
   // desta classe. `super.key` é uma forma de passar a chave do widget para a 
