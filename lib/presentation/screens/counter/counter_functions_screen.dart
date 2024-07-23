@@ -116,6 +116,27 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             FloatingActionButton(
+              shape: const StadiumBorder(),
+              // `FloatingActionButton` é um botão circular flutuante usado para
+              // ações primárias na tela.
+              onPressed: () {
+                // `onPressed` é um callback que é chamado quando o botão é pressionado.
+                setState(() {
+                  // `setState` notifica o Flutter que o estado interno mudou,
+                  // fazendo com que o método `build` seja chamado novamente para
+                  // atualizar a interface do usuário.
+                  clickCounter = clickCounter = 0;
+                });
+              },
+              child: const Icon(Icons.refresh_rounded),
+              // `child` define o conteúdo dentro do `FloatingActionButton`.
+              // `Icon(Icons.plus_one)` cria um ícone com o símbolo de mais.
+            ),
+            const SizedBox(
+              height: 10.0,
+            ),
+            FloatingActionButton(
+              shape: const StadiumBorder(),
               // `FloatingActionButton` é um botão circular flutuante usado para
               // ações primárias na tela.
               onPressed: () {
@@ -132,9 +153,12 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
               // `child` define o conteúdo dentro do `FloatingActionButton`.
               // `Icon(Icons.plus_one)` cria um ícone com o símbolo de mais.
             ),
-
-
+            const SizedBox(
+              height: 10.0,
+            ),
             FloatingActionButton(
+              shape: const StadiumBorder(),
+
               // `FloatingActionButton` é um botão circular flutuante usado para
               // ações primárias na tela.
               onPressed: () {
@@ -151,10 +175,6 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
               // `child` define o conteúdo dentro do `FloatingActionButton`.
               // `Icon(Icons.plus_one)` cria um ícone com o símbolo de mais.
             ),
-
-
-
-
           ],
         ));
   }
