@@ -1,4 +1,7 @@
-import 'package:contador/presentation/screens/counter/counter_screen.dart';
+import 'package:contador/presentation/screens/counter/counter_functions_screen.dart';
+//import 'package:contador/presentation/screens/counter/counter_screen.dart';
+
+
 // `import` é uma palavra-chave que traz funcionalidades de outros arquivos ou 
 // pacotes para o arquivo atual. Aqui, estamos importando a classe `CounterScreen` 
 // do arquivo `counter_screen.dart` que está localizado no caminho 
@@ -67,7 +70,7 @@ class MyApp extends StatelessWidget {
         // `useMaterial3` é uma propriedade que, quando definida como `true`, 
         // ativa o uso dos novos componentes e estilo do Material Design 3.
 
-        colorSchemeSeed: Color.fromARGB(255, 67, 154, 253),
+        colorSchemeSeed: const Color.fromARGB(255, 67, 154, 253),
         // `colorSchemeSeed` é uma propriedade que define a cor base do esquema 
         // de cores do aplicativo.
         // `Color.fromARGB` é um construtor que cria uma cor a partir de valores 
@@ -76,7 +79,7 @@ class MyApp extends StatelessWidget {
         // valor do azul.
       ),
 
-      home: const CounterScreen(),
+      home: const CounterFunctionsScreen(),
       // `home` é uma propriedade que define o widget principal do aplicativo,
       // que é exibido quando o aplicativo é iniciado.
       // `const CounterScreen()` cria uma instância constante de `CounterScreen`,
